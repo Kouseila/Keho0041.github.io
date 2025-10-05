@@ -21,3 +21,24 @@ header, footer{
     box-shadow: 0 0 2px 1px black;
     border-radius: 8px;
 }
+
+/*Hobbies list*/
+main ul{
+    list-style-type: square; /*replace bullets with squares*/
+    padding-left: 20px;
+}
+
+/* Navigation styling */ 
+nav ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #bbb; /*change background on hover/focus*/
+}
